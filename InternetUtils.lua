@@ -12,7 +12,7 @@ local internet = require("internet")
 local InternetUtils = {}
 
 --[[
-    Download a file using HTTP.
+    Download a file over HTTP.
 --]]
 function InternetUtils.download (url, destination, overwrite)
     overwrite = overwrite or false
